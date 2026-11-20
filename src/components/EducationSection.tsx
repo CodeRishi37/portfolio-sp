@@ -50,10 +50,10 @@ export default function EducationSection() {
               {/* CGPA Badge Display */}
               <div className="p-4 rounded-xl bg-[#121624] border border-cyan-500/30 text-center space-y-1 shadow-[0_0_20px_rgba(0,229,255,0.12)]">
                 <span className="text-[10px] font-mono text-slate-400 uppercase tracking-widest block">
-                  SEM 1 CGPA
+                  YEAR 1 CGPA
                 </span>
                 <span className="text-3xl font-mono font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-emerald-400">
-                  9.45
+                  {educationData.cgpa.split('/')[0].trim()}
                 </span>
                 <span className="text-[10px] font-mono text-emerald-400 block font-semibold">
                   Top Percentile

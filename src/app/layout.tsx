@@ -23,7 +23,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: `${profileData.name} (${profileData.shortName}) | Software & Systems Portfolio`,
-  description: `${profileData.tagline}. First-year B.Tech CSE student at ITER/SOA (9.45 CGPA) specializing in Java, Python, low-latency backend architectures, LSM-Tree storage engines, and RAG pipelines.`,
+  description: `${profileData.tagline}. First-year B.Tech CSE student at ITER/SOA (${profileData.cgpa}) specializing in Java, Python, low-latency backend architectures, LSM-Tree storage engines, and RAG pipelines.`,
   keywords: [
     'Saptarshi Patra',
     'Rishi',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: `${profileData.name} | Developer Portfolio`,
-    description: `${profileData.tagline}. 9.45 CGPA at ITER/SOA.`,
+    description: `${profileData.tagline}. ${profileData.cgpa} at ITER/SOA.`,
   },
   robots: {
     index: true,

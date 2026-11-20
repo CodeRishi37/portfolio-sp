@@ -76,7 +76,7 @@ export default function Navbar() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
             </span>
-            <span>9.45 CGPA</span>
+            <span>{profileData.cgpa}</span>
           </div>
 
           {/* Resume CTA */}
@@ -118,7 +118,7 @@ export default function Navbar() {
         <div className="md:hidden bg-[#0c0e15] border-b border-white/10 px-4 pt-3 pb-6 space-y-2">
           <div className="flex items-center gap-2 px-3 py-2 rounded-md bg-emerald-950/30 border border-emerald-500/20 text-xs font-mono text-emerald-300 mb-3">
             <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span>First Year B.Tech CSE • 9.45 CGPA (Sem 1)</span>
+            <span>First Year B.Tech CSE • {profileData.cgpa}</span>
           </div>
           {navItems.map((item) => (
             <Link

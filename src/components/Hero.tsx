@@ -22,7 +22,7 @@ const terminalCommands = [
     id: 'whoami',
     cmd: '$ whoami',
     output:
-      'Saptarshi Patra (Rishi) — 1st Year B.Tech CSE @ ITER/SOA, Bhubaneswar. 9.45 CGPA.',
+      'Saptarshi Patra (Rishi) — 1st Year B.Tech CSE @ ITER/SOA, Bhubaneswar. 9.55 CGPA (Year 1).',
   },
   {
     id: 'stack',
@@ -56,7 +56,7 @@ export default function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500" />
               </span>
-              <span>First-Year B.Tech CSE @ ITER/SOA • 9.45 CGPA (Sem 1)</span>
+              <span>First-Year B.Tech CSE @ ITER/SOA • {profileData.cgpa}</span>
             </div>
 
             {/* Main Headline */}

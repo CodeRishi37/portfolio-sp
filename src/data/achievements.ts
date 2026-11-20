@@ -2,26 +2,26 @@ import { Achievement } from '@/types';
 
 export const achievementsData: Achievement[] = [
   {
-    id: 'academic-sem1',
-    title: 'Top Academic Honor: 9.45 CGPA (First Semester)',
+    id: 'academic-year1',
+    title: 'Top Academic Distinction: 9.55 CGPA (Year 1)',
     organization: "ITER, Siksha 'O' Anusandhan University",
-    date: 'Jan 2025',
+    date: '2025',
     type: 'Academic',
     description:
-      'Secured a 9.45 CGPA across all theoretical and laboratory examinations in the first semester of B.Tech CSE, ranking in the top cohort.',
-    badgeText: '9.45 CGPA',
+      'Secured a 9.55 CGPA across theoretical and laboratory examinations in the first year of B.Tech CSE, ranking in the top cohort of the university.',
+    badgeText: '9.55 CGPA',
     isPlaceholder: false,
   },
   {
-    id: 'ideathon-campus',
-    title: 'Campus Ideathon / Hackathon Finalist',
-    organization: 'ITER SOA University Tech Fest / Innovation Cell',
-    date: 'Late 2024 / Early 2025',
+    id: 'ideathon-soa-2026',
+    title: 'Team Leader — SOA Ideathon 2026 (Team CodeSicks)',
+    organization: "Siksha 'O' Anusandhan University Ideathon",
+    date: '2026',
     type: 'Ideathon',
     description:
-      'Pitched and prototyped an automated system architecture for secure identity management and real-time campus notifications. Evaluated on technical viability, scalability, and impact.',
-    badgeText: 'Finalist / Merit',
-    isPlaceholder: true, // Marked as placeholder for Rishi to update details
+      'Led Team CodeSicks in conceptualizing and architecting LearnTwin: a cognitive digital twin adaptive learning platform personalizing study paths. Designed multi-stack UI documentation (Vue/Nuxt and React/Next.js) and produced the competition pitch deck.',
+    badgeText: 'SOA Ideathon 2026',
+    isPlaceholder: false,
   },
   {
     id: 'leetcode-consistency',

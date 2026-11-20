@@ -6,12 +6,12 @@ export const educationData: EducationData = {
   university: "Siksha 'O' Anusandhan University (SOA)",
   location: 'Bhubaneswar, Odisha, India',
   duration: '2024 — 2028',
-  currentSemester: 'First Year (Entering Semester 2)',
-  cgpa: '9.45 / 10.0',
+  currentSemester: 'First Year (Completed Year 1, Entering Year 2)',
+  cgpa: '9.55 / 10.0',
   highlights: [
-    'Achieved 9.45 CGPA in Semester 1, placing in the top academic percentile of the CSE cohort.',
+    'Achieved 9.55 CGPA in Year 1, placing in the top academic percentile of the CSE cohort.',
     'Focus on deep foundational CS: clean code architecture, asymptotic algorithmic efficiency, and memory structures.',
-    'Active participant in coding competitions, ideathons, and peer technical study groups on campus.',
+    'Leader of SOA Ideathon 2026 Team (CodeSicks) designing the LearnTwin cognitive digital twin learning platform.',
   ],
   coursework: [
     {

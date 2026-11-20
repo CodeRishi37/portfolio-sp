@@ -22,7 +22,7 @@ export default function Footer() {
                 {profileData.name} ({profileData.shortName})
               </span>
               <span className="text-[11px] text-slate-500">
-                CSE Undergrad @ ITER/SOA, Bhubaneswar • 9.45 CGPA
+                CSE Undergrad @ ITER/SOA, Bhubaneswar • {profileData.cgpa}
               </span>
             </div>
           </div>

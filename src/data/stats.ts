@@ -19,7 +19,7 @@ export const fallbackGitHubStats: GitHubStatsData = {
 
 // Fallback snapshot data for LeetCode: will be displayed if LeetCode GraphQL is blocked/down
 export const fallbackLeetCodeStats: LeetCodeStatsData = {
-  username: 'rishi_patra', // TODO: Update with your exact LeetCode handle
+  username: 'saptarshi_26', // TODO: Update with your exact LeetCode handle
   totalSolved: 184,
   easySolved: 78,
   mediumSolved: 94,
